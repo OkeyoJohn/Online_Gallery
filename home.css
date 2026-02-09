@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+nav{
+margin-left: 380px;
+word-spacing: 50px;
+margin-top: 60px;
+}
+
+.navl a {
+text-decoration: none;
+color: rgb(243, 240, 240);
+font-style: oblique;
+font-weight: bolder;
+
+}
+
+.product_grid h2{
+
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+
