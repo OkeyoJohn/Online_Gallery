@@ -36,8 +36,22 @@ body{
 .cart-section {
   margin-top: 80px;
   padding: 24px;
-  background: #f9fafb;
+  background: #313131;
   border-radius: 12px;
+  color: #fff;
+}
+
+.cart-section button {
+margin-left: 1100px;
+  text-decoration: none;
+  background: #2563eb; /* blue */
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  /* margin-bottom: 60px; */
+
+
 }
 
 
