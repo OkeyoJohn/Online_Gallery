@@ -30,7 +30,7 @@
   cartItems.innerHTML = "";
   cart.forEach(item => {
     const li = document.createElement("li");
-    li.textContent = `${item.name} - KSh ${item.pgitrice}`;
+    li.textContent = `${item.name} - KSh ${item.price}`;
     cartItems.appendChild(li);
   });
 
