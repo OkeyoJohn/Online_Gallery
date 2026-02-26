@@ -30,10 +30,20 @@
   cartItems.innerHTML = "";
   cart.forEach(item => {
     const li = document.createElement("li");
-    li.textContent = `${item.name} - KSh ${item.price}`;
+    li.textContent = `${item.name} - KSh ${item.pgitrice}`;
     cartItems.appendChild(li);
   });
 
   cartTotal.textContent = total;
   if (cartCount) cartCount.textContent = cart.length;
 }
+
+fetch("/stkpush", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    phone: "2547XXXXXXXX",
+    amount: total
+  })
+});
+
