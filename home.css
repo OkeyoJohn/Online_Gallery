@@ -1,5 +1,7 @@
 body{
     background-color: rgb(31, 30, 30);
+       width: 100%;
+
 }
 
 .logo {
@@ -39,6 +41,7 @@ body{
   background: #313131;
   border-radius: 12px;
   color: #fff;
+  
 }
 
 .cart-section button {
@@ -50,6 +53,7 @@ margin-left: 1100px;
   border-radius: 8px;
   font-weight: 600;
   /* margin-bottom: 60px; */
+  
 
 
 }
